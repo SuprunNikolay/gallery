@@ -1,0 +1,25 @@
+/* Extra Small */ 
+@media(max-width:767px){
+	section{
+		overflow: auto;
+	}} 
+/* Small */ 
+@media(min-width:768px) and (max-width:991px){
+	section{
+		overflow: auto;
+	}} 
+/* Medium */ 
+@media(min-width:992px) and (max-width:1199px){
+	section{
+		overflow: auto;
+	}
+} 
+/* Large */ 
+@media(min-width:1200px){
+	.gallery-container{
+		min-width: 1500px;
+	}
+	section{
+		overflow: auto;
+	}
+}
